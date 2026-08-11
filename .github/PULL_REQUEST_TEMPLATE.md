@@ -1,54 +1,30 @@
-# 📋 Spring Boot 3 + JDK 21 Student Pre-Class Checklist
+## 👤 Student Identification
+> **Note:** Please provide your **Full Name** so your submission can be officially recognized in class.
 
-> **Target Environment:** Windows 10 / 11 | **IDE:** VS Code | **Java:** OpenJDK 21 (LTS)
-
----
-
-## ⚙️ Environment Setup Checklist
-
-- [ ] **Install OpenJDK 21**
-  - Download Eclipse Temurin JDK 21 or Microsoft OpenJDK 21.
-  - Select "Set JAVA_HOME variable" and "Add to PATH" during installation.
-
-- [ ] **Configure VS Code Extensions**
-  - Install **Extension Pack for Java** (Microsoft).
-  - Install **Spring Boot Extension Pack** (Microsoft).
-  - Install **Lombok Annotation Support** (Microsoft / Gabriel BB).
+* **Full Name:** 
 
 ---
 
-## 🏗️ Project Implementation Checklist
+## ⚙️ Pre-Class Setup Checklist
 
-- [ ] **Generate Project via Spring Initializr**
-  - Open Command Palette (`Ctrl + Shift + P`) -> `Spring Initializr: Create a Maven Project...`
-  - Group: `com.bankdki` | Artifact: `helloworld` | Java: `21`
-  - Dependencies: `Spring Web`, `Spring Data JDBC`, `H2 Database`, `Lombok`.
-
-- [ ] **Implement `HelloController.java`**
-  - Location: `src/main/java/com/bankdki/helloworld/HelloController.java`
-  - Use `@RequiredArgsConstructor` for constructor injection (no `@Autowired` fields).
-  - Use `@Value` for the inner immutable `Result` class.
+- [ ] **OpenJDK 21 Installed & Selected in VS Code**
+- [ ] **Java & Spring Boot Extension Packs Installed**
+- [ ] **Project Created via Spring Initializr (Spring Boot 3.2+)**
+- [ ] **`HelloController` Configured using `@RequiredArgsConstructor` (No `@Autowired` on fields)**
+- [ ] **Immutable Response Object Implemented using `@Value`**
 
 ---
 
-## 🧪 Local Endpoint Verification Checklist
+## 🧪 Endpoint Verification Results
 
-- [ ] **Run Application**
-  - Launch via `HelloworldApplication.java` in VS Code or `./mvnw spring-boot:run` in terminal.
-
-- [ ] **Verify Endpoints in Browser**
-  - `http://localhost:8080/` -> Returns `"Hello World!"`
-  - `http://localhost:8080/calc?left=100&right=100` -> Returns `{"left":100,"right":100,"answer":200}`
+- [ ] **Root Endpoint Tested:** `http://localhost:8080/` -> Returns `"Hello World!"`
+- [ ] **Calculation Endpoint Tested:** `http://localhost:8080/calc?left=100&right=100` -> Returns `{"left":100,"right":100,"answer":200}`
 
 ---
 
-## 📤 Submission Checklist (Fork & PR Workflow)
+## ❓ Review & Assistance Request
 
-- [ ] **Fork & Push Changes**
-  - Fork the repository to your GitHub account.
-  - Push completed code to your fork (`git push origin main`).
+- [ ] **Ready for Final Review** (Setup is complete and running locally)
+- [ ] **Instructor Assistance Needed** (Encountered errors / need configuration check)
 
-- [ ] **Open Pull Request**
-  - Create a Pull Request pointing back to the main repository.
-  - Fill out your Name, Student ID, and check off completed items in the PR body.
-  - If stuck or encountering build errors, open a Draft PR / Issue and flag for instructor review.
+*If you need help, please describe the issue or paste your error trace below:*
