@@ -9,7 +9,7 @@ Welcome! This repository serves as the baseline project and pre-class environmen
 Complete all steps below before attending class:
 
 - [ ] Install **OpenJDK 21 (LTS)** & **Node.js (v20+)** on Windows
-- [ ] Install **VS Code** with Java & Spring Boot extension packs
+- [ ] **VS Code Extensions Installed** (Java, Spring Boot, Lombok, Docker, npm)
 - [ ] Implement `HelloController` in `helloworld/` using `@RequiredArgsConstructor`
 - [ ] Test Spring Boot backend locally at `http://localhost:8080/calc?left=100&right=100`
 - [ ] Create `helloworld/Dockerfile` and run Spring Boot in Docker
@@ -21,15 +21,18 @@ Complete all steps below before attending class:
 
 ## 🛠️ Step 1: Environment Setup
 
-### 1. Install OpenJDK 21 & Node.js (Windows)
-* Download and install **Eclipse Temurin JDK 21 (LTS)** or **Microsoft Build of OpenJDK 21**. Ensure **"Set JAVA_HOME"** and **"Add to PATH"** are selected during installation.
-* Download and install **Node.js LTS (v20+)** for Windows.
+### 1. Install OpenJDK 21, Node.js, and Docker (Windows)
+* **OpenJDK 21:** Download and install **Eclipse Temurin JDK 21 (LTS)** or **Microsoft Build of OpenJDK 21**. Ensure **"Set JAVA_HOME"** and **"Add to PATH"** are selected during installation.
+* **Node.js:** Download and install **Node.js LTS (v20+)** for Windows (includes `npm`).
+* **Docker Desktop:** Download and install **Docker Desktop for Windows**. Ensure WSL 2 or Hyper-V backend is enabled and Docker Desktop is running.
 
 ### 2. Install VS Code Extensions
-Open VS Code (`Ctrl + Shift + X`) and install:
+Open VS Code (`Ctrl + Shift + X`) and install the following extensions:
 1. **Extension Pack for Java** (Microsoft)
 2. **Spring Boot Extension Pack** (Microsoft)
 3. **Lombok Annotation Support** (Microsoft / Gabriel BB)
+4. **Docker** (Microsoft) – *Provides container logs, image management, and syntax highlighting*
+5. **npm** or **npm Intellisense** (Christian Kohler) – *Provides script running and dependency auto-completion*
 
 ---
 

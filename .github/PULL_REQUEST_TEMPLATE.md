@@ -8,7 +8,7 @@
 ## ⚙️ Pre-Class Setup Checklist
 
 - [ ] **OpenJDK 21 & Node.js Installed & Configured in VS Code**
-- [ ] **Java & Spring Boot Extension Packs Installed**
+- [ ] **VS Code Extensions Installed** (Java, Spring Boot, Lombok, Docker, npm)
 - [ ] **Spring Boot Project Created & `HelloController` Configured using `@RequiredArgsConstructor`**
 - [ ] **Spring Boot Dockerfile Created & Tested (`docker run -p 8080:8080`)**
 - [ ] **Node.js Frontend & `frontend/Dockerfile` Created**
