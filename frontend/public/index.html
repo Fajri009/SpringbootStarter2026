@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Calc Frontend</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <input type="number" id="left" value="100"> + 
+    <input type="number" id="right" value="100">
+    <button onclick="calculate()">=</button>
+    <h3 id="result">Answer: 200</h3>
+
+    <script>
+        async function calculate() {
+            const left = document.getElementById('left').value;
+            const right = document.getElementById('right').value;
+            const res = await fetch(`/api/calc?left=${left}&right=${right}`);
+            const data = await res.json();
+            document.getElementById('result').innerText = `Answer: ${data.answer}`;
+        }
+    </script>
+</body>
+</html>

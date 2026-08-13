@@ -7,18 +7,20 @@
 
 ## ⚙️ Pre-Class Setup Checklist
 
-- [ ] **OpenJDK 21 Installed & Selected in VS Code**
+- [ ] **OpenJDK 21 & Node.js Installed & Configured in VS Code**
 - [ ] **Java & Spring Boot Extension Packs Installed**
-- [ ] **Project Created via Spring Initializr (Spring Boot 3.2+)**
-- [ ] **`HelloController` Configured using `@RequiredArgsConstructor` (No `@Autowired` on fields)**
-- [ ] **Immutable Response Object Implemented using `@Value`**
+- [ ] **Spring Boot Project Created & `HelloController` Configured using `@RequiredArgsConstructor`**
+- [ ] **Spring Boot Dockerfile Created & Tested (`docker run -p 8080:8080`)**
+- [ ] **Node.js Frontend & `frontend/Dockerfile` Created**
+- [ ] **Multi-Container Stack Verified via Docker Compose (`http://localhost:3000`)**
 
 ---
 
 ## 🧪 Endpoint Verification Results
 
-- [ ] **Root Endpoint Tested:** `http://localhost:8080/` -> Returns `"Hello World!"`
-- [ ] **Calculation Endpoint Tested:** `http://localhost:8080/calc?left=100&right=100` -> Returns `{"left":100,"right":100,"answer":200}`
+- [ ] **Spring Boot Root Endpoint:** `http://localhost:8080/` -> Returns `"Hello World!"`
+- [ ] **Spring Boot Calc Endpoint:** `http://localhost:8080/calc?left=100&right=100` -> Returns `{"left":100,"right":100,"answer":200}`
+- [ ] **Node.js Frontend UI:** `http://localhost:3000` -> Renders calculator and receives dynamic responses from backend proxy
 
 ---
 

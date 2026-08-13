@@ -1,0 +1,13 @@
+{
+  "name": "calc-frontend",
+  "version": "1.0.0",
+  "description": "Simple Node.js Express frontend proxy for Spring Boot backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
