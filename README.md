@@ -19,6 +19,14 @@ Complete all steps below before attending class:
 
 ---
 
+### 📱 Additional Setup (For Mobile Development / Future Modules)
+> **Note:** The current starter project only covers backend and web frontend. You may pre-install them to work on Android/Mobile integration:
+
+- [ ] **Android Studio** (includes Android SDK & JDK)
+- [ ] **Android Emulator** or a physical **Android Device** (with USB Debugging enabled)
+
+---
+
 ## 🛠️ Step 1: Environment Setup
 
 ### 1. Install OpenJDK 21, Node.js, and Docker (Windows)
